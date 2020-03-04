@@ -1,0 +1,49 @@
+.overlay {
+    display: none;
+    background-color: rgba(0,0,0, .8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    form {
+        background-color: #fff;
+        input {
+            border: 1px solid #000;
+        }
+    }
+    &__modal {
+        display: none;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        &-close {
+            font-size: 45px;
+            color: $main-color;
+            position: absolute;
+            top: -10px;
+            right: -35px;
+            cursor: pointer;
+            z-index: 10900;
+            transition: all .3s linear;
+            &:hover {
+                transform: scale(1.5);
+                color: rgba(206, 45, 45, 0.507);
+            }
+        }
+    }
+}
+.form__thanks {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,29 @@
+
+.header {
+    &_image-page {
+        background-image: linear-gradient(to bottom, rgb(25, 25, 26), rgb(30, 29, 31), rgb(35, 34, 35), rgb(41, 38, 40), rgb(46, 43, 44), rgb(51, 47, 49), rgb(62, 56, 58), rgb(72, 66, 67), rgb(83, 75, 76), rgb(94, 84, 85), rgb(104, 94, 94), rgb(115, 103, 103))!important;
+        padding-bottom: 65px;
+    }
+    h2 {
+        margin-top: 45px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+}
+.bgc-top_image-page {
+    background-color: rgba(255, 255, 255, 0.068);
+}
+.image-page-descr {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    width: 80%;
+}
+.footer_gallery {
+    // position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

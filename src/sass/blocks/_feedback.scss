@@ -1,0 +1,67 @@
+.feedback {
+    min-height: 500px;
+    padding: 50px 0 20px 0;
+    background: url(../images/feedback-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__text {
+        float: left;
+        width: 50%;
+    }
+    &__title {
+        font-size: 35px;
+        color: #fff;
+        line-height: 44px;
+    }
+    &__subtitle {
+        color: #fff;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+}
+
+.form {
+    padding: 20px 20px 80px 20px;
+    width: 400px;
+    background-color: rgba(231, 231, 231, .6);
+    float: right;
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        opacity: .8;
+        text-align: center;
+    }
+    input {
+        margin-top: 30px;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: 6px;
+    }
+    &__btn {
+        margin-top: 30px;
+        width: 100%;
+    }
+    span {
+        margin-top: 15px;
+        display: block;
+        text-align: center;
+    }
+    &__phone {
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+        color: #fff;
+        color: #000;
+        border: 1px solid #000;
+        text-align: center;
+        text-decoration: none;
+        background-image: radial-gradient(rgb(242, 242, 220), rgb(240, 240, 220), rgb(239, 239, 221), rgb(237, 237, 221), rgb(235, 235, 221), rgb(234, 234, 222), rgb(232, 232, 222), rgb(231, 231, 223), rgb(229, 229, 223), rgb(227, 227, 223), rgb(226, 226, 224), rgb(224, 224, 224));        &:hover {
+            background-image: radial-gradient(rgb(209, 209, 197), rgb(210, 210, 199), rgb(212, 212, 202), rgb(213, 213, 204), rgb(214, 214, 207), rgb(216, 216, 209), rgb(217, 217, 212), rgb(219, 219, 214), rgb(220, 220, 217), rgb(221, 221, 219), rgb(223, 223, 222), rgb(224, 224, 224));
+        }
+
+    }
+}
